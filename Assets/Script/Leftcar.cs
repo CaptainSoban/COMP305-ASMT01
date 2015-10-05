@@ -1,4 +1,14 @@
-﻿using UnityEngine;
+﻿/* Source File Name: Leftcar.cs
+ * Author: Xiaoyu Wang
+ * Last Modified Date: Oct 5th 2015
+ * Description: Define the left car respawn and move.
+ * Version: 2
+ * 
+ * Class: Leftcar
+ * Method: resetit
+ * 
+ * */
+using UnityEngine;
 using System.Collections;
 
 public class Leftcar : MonoBehaviour {

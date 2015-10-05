@@ -1,4 +1,14 @@
-﻿using UnityEngine;
+﻿/* Source File Name: Score.cs
+ * Author: Xiaoyu Wang
+ * Last Modified Date: Oct 5th 2015
+ * Description: Count and display the score.
+ * Version: 2
+ * 
+ * Class: Score
+ * Method: 
+ * 
+ * */
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 

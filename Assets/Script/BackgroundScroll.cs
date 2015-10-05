@@ -1,4 +1,14 @@
-﻿using UnityEngine;
+﻿/* Source File Name: BackgroundScroll.cs
+ * Author: Xiaoyu Wang
+ * Last Modified Date: Oct 5th 2015
+ * Description: Make the background move.
+ * Version: 2
+ * 
+ * Class: BackgroundScroll
+ * Method: Initial
+ * 
+ * */
+using UnityEngine;
 using System.Collections;
 
 public class BackgroundScroll : MonoBehaviour {
@@ -14,6 +24,8 @@ public class BackgroundScroll : MonoBehaviour {
         CurPos = gameObject.GetComponent<Transform>().position;
         CurPos.y = CurPos.y - speed;
         gameObject.GetComponent<Transform>().position = CurPos;
+
+        //restart
         if (CurPos.y < -3333.0f) {
             this.Initial();
         }

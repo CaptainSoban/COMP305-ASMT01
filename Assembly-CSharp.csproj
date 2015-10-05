@@ -45,13 +45,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Leftcar.cs" />
-     <Compile Include="Assets\Life.cs" />
-     <Compile Include="Assets\Rightcar.cs" />
-     <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\Script\BackgroundScroll.cs" />
      <Compile Include="Assets\Script\Controller.cs" />
-     <Compile Include="Assets\respawn.cs" />
+     <Compile Include="Assets\Script\Leftcar.cs" />
+     <Compile Include="Assets\Script\Life.cs" />
+     <Compile Include="Assets\Script\Rightcar.cs" />
+     <Compile Include="Assets\Script\Score.cs" />
+     <Compile Include="Assets\Script\respawn.cs" />
+     <None Include="Assets\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Source/Editor/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -1,4 +1,14 @@
-﻿using UnityEngine;
+﻿/* Source File Name: Controller.cs
+ * Author: Xiaoyu Wang
+ * Last Modified Date: Oct 5th 2015
+ * Description: Make the car move and add some soundtracks.
+ * Version: 2
+ * 
+ * Class: Controller
+ * Method: KeyInput bdCheck OnTriggerEnter2D
+ * 
+ * */
+using UnityEngine;
 using System.Collections;
 
 [System.Serializable]
@@ -64,6 +74,7 @@ public class Controller : MonoBehaviour {
 		}
 	}
 
+    //lose life when crash
     void OnTriggerEnter2D(Collider2D other) {
         this.CrashS.Play();
         Life life = thIn.GetComponent<Life>();

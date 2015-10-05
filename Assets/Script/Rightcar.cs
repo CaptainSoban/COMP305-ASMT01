@@ -1,4 +1,14 @@
-﻿using UnityEngine;
+﻿/* Source File Name: Rightcar.cs
+ * Author: Xiaoyu Wang
+ * Last Modified Date: Oct 5th 2015
+ * Description: Define the right car respawn and move.
+ * Version: 2
+ * 
+ * Class: Rightcar
+ * Method: resetit
+ * 
+ * */
+using UnityEngine;
 using System.Collections;
 
 public class Rightcar : MonoBehaviour {
